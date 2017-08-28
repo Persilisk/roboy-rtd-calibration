@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Calibration &mdash; PaBiLegs Calibration 0.0. documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="PaBiLegs Calibration 0.0. documentation" href="../index.html"/>
+        <link rel="next" title="PaBiLegs" href="../pabilegs/pabilegs.html"/>
+        <link rel="prev" title="Home" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PaBiLegs Calibration
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Calibration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#requirements">Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Calibration</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#approaches">Approaches</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#measuring-tension-changes">Measuring Tension Changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#measuring-force-torque">Measuring Force/Torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#motion-capture">Motion Capture</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#sources">Sources</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../pabilegs/pabilegs.html">PaBiLegs</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intcal/intcal.html">Internal Calibration Procedure</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PaBiLegs Calibration</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Calibration</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/calibration/calibration.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="calibration">
+<h1>Calibration<a class="headerlink" href="#calibration" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>Roboy 1.0 currently needs two people and a lot of time to get initialized and calibrated. The motors/muscles only give relative positions, which makes it impossible for Roboy to know where his spine, arms, etc are without further information. Roboy 2.0 shall be able to move to the initial position by himself, or at least faster and with less help than right now.</p>
+<div class="section" id="requirements">
+<h3>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
+<p><strong>Error detection:</strong>
+If a robot moves automatically to the initial position, it might hurt himself by doing so. Therfore it is essential that errors are detected and reported to the system, as the robot might get damaged otherwise. This detection can be realized through the evaluation of sensor data.</p>
+<p><strong>Collision prediction:</strong>
+Prediction through motor states, expected and actual joint angles</p>
+<p><strong>Motor states:</strong>
+This information is given from Middleware/Simulation</p>
+<p><strong>Sensor states:</strong>
+This information is given from Middleware/Simulation</p>
+<p><strong>Motor commands:</strong>
+The commands for steering Roboy are using ROS to communicate with Middleware or Simulation</p>
+</div>
+<div class="section" id="id1">
+<h3>Calibration<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/sensors_PerfectSensor.png" src="../_images/sensors_PerfectSensor.png" />
+<p>Calibration is the comparision of measured and actual/standartized parameters, the most important characteristics are precision and resolution.</p>
+<p>Precision is defined by the variation of its output for the same input, resolution shows the detection of small changes in the measured parameter.</p>
+</div>
+</div>
+<div class="section" id="approaches">
+<h2>Approaches<a class="headerlink" href="#approaches" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="measuring-tension-changes">
+<h3>Measuring Tension Changes<a class="headerlink" href="#measuring-tension-changes" title="Permalink to this headline">¶</a></h3>
+<p>The tension in all motors changes while one is changing tension: This system is developed for a robot with only 2DoF, which is connected to four Motors (see picture). The position is determined by changing the tension in one motor. Changes of tension in the other three directions are measured and allow to calculate the current position of the robot.</p>
+</div>
+<div class="section" id="measuring-force-torque">
+<h3>Measuring Force/Torque<a class="headerlink" href="#measuring-force-torque" title="Permalink to this headline">¶</a></h3>
+<p>Sensors are installed between the different parts of the body (i.e. spine). During initialization, the motor increases its tension until the sensor reports a certain position. This gives the absolute position.</p>
+<img alt="../_images/2DoF-Robot.png" src="../_images/2DoF-Robot.png" />
+</div>
+<div class="section" id="motion-capture">
+<h3>Motion Capture<a class="headerlink" href="#motion-capture" title="Permalink to this headline">¶</a></h3>
+<p>Stereo-vision motion capture systems can provide joint angle data in real-time. The chair of Robotics at TUM developed this system in order to calibrate a torso-robot with spine, arms,…
+The elbow joint was calibrated via few steady-state poses that had a great variety in the joint movements, while the shoulder was kept still. Motion capture can compensate the lack of joint angle sensors.</p>
+<p>The paper “Calibration of a Physics-Based Model of an Anthropomimetic Robot using Evolution Strategies” presents an automoted steady-state pose calibration of an anthropomimetic robot model. Goal of the work is to reduce the gap between simulation and reality to a minimum. The lack of joint angle data in the robot is compensated by a motion capture system using stereo-vision infrared-markers in order to obtain the required input data. (Link to the paper is on <a class="reference external" href="https://devanthro.atlassian.net/wiki/spaces/CO/pages/75141912/Calibration+with+Motion+Capture">Confluence</a>)</p>
+<p>This joint angle measurement with motion capture technique might help to calibrate Roboy 1.0, as this robot does not have sensors for an internal tracking. (We can use external tracking because there is a lighthouse tracking system available).</p>
+<p>They used two cameras with infrared pass filters and spherical, retro-reflective markers attached to the robot limts, which are illuminated by infrared LED clusters positioned next to the cameras.</p>
+<p>Regarding the muscle model, no collisions between the muscles and sceleton are simulated. The muscle attachment points are approximated based on laser-scan-data and muscles are simulated as direct connection between two attachment points.</p>
+<p>Each pose was aquired five times to compute the mean and standard deviation of the joint angles, because anthropomimetic robots to not provide the repeatability of industrial manipulators.</p>
+</div>
+</div>
+<div class="section" id="sources">
+<h2>Sources<a class="headerlink" href="#sources" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://learn.adafruit.com/calibrating-sensors/why-calibrate">https://learn.adafruit.com/calibrating-sensors/why-calibrate</a></p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Calibration">https://en.wikipedia.org/wiki/Calibration</a></p>
+<ol class="upperalpha simple" start="19">
+<li>Wittmeier, A. Gaschler, M. Jantsch, K. Dalamagkidis and A. Knoll. “Calibration of a Physics-Based Model of an Anthropomimetic Robot using Evolution Strategies”, 2012, IEEE/RSJ International Conference on Intelligent Robots and Systems</li>
+</ol>
+<ol class="upperalpha simple" start="16">
+<li><ol class="first upperalpha" start="8">
+<li>Borgstrom, B. L. Jordan, B. J. Borgstrom, M. J. Stealey, G. S. Sukhatme, M. A. Batalin and W. J. Kaiser. “NIMS-PL: A Cable-Driven Robot With Self-Calibration Capabilities”, 2009, IEEE Transactions on Robotics, Vol. 25, No. 5, October 2009</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../pabilegs/pabilegs.html" class="btn btn-neutral float-right" title="PaBiLegs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../index.html" class="btn btn-neutral" title="Home" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Raphael Dürscheid, based on Template by Dr. Peter.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.0.',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="calibration_8rst_8txt" kind="file" language="C++">
+    <compoundname>calibration.rst.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="calibration_8rst_8txt_1af2fd5236b76386ebd8fef010db06688c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Calibration</definition>
+        <argsstring></argsstring>
+        <name>Calibration</name>
+        <initializer>===========
+Overview
+--------
+
+Roboy 1.0 currently needs two people and a lot of time to get initialized and calibrated. The motors/muscles only give relative positions</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="1" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="calibration_8rst_8txt_1a3853e8f01b7cf059371f1ea8e8b0c287" prot="public" static="no" mutable="no">
+        <type>which makes it impossible for Roboy to know where his</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same resolution shows the detection of small changes in the measured parameter Approaches Measuring Tension Changes~The tension in all motors changes while one is changing which is connected to four the motor increases its tension until the sensor reports a certain position This gives the absolute position image::images Robot png Motion Capture~Stereo vision motion capture systems can provide joint angle data in real time The chair of Robotics at TUM developed this system in order to calibrate a torso robot with spine</definition>
+        <argsstring></argsstring>
+        <name>spine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="6" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="calibration_8rst_8txt_1a32be27936ae835c770f62dff2471a693" prot="public" static="no" mutable="no">
+        <type>which makes it impossible for Roboy to know where his</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same resolution shows the detection of small changes in the measured parameter Approaches Measuring Tension Changes~The tension in all motors changes while one is changing which is connected to four the motor increases its tension until the sensor reports a certain position This gives the absolute position image::images Robot png Motion Capture~Stereo vision motion capture systems can provide joint angle data in real time The chair of Robotics at TUM developed this system in order to calibrate a torso robot with arms</definition>
+        <argsstring></argsstring>
+        <name>arms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="6" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="calibration_8rst_8txt_1a1433949959197fa519972a92eda38d37" prot="public" static="no" mutable="no">
+        <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by himself</definition>
+        <argsstring></argsstring>
+        <name>himself</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="6" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="calibration_8rst_8txt_1a4f597c2f53a33257b31d667c7bb192b4" prot="public" static="no" mutable="no">
+        <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements** Error detection</definition>
+        <argsstring></argsstring>
+        <name>detection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="11" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="calibration_8rst_8txt_1a96662a70ffdcc33efa7f511620774a26" prot="public" static="no" mutable="no">
+        <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements** Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the system</definition>
+        <argsstring></argsstring>
+        <name>system</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="12" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="calibration_8rst_8txt_1a3b16f3f11230dbdb9569dd5dc397428d" prot="public" static="no" mutable="no">
+        <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements** Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data** Collision prediction</definition>
+        <argsstring></argsstring>
+        <name>prediction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="14" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="calibration_8rst_8txt_1ab64ad694f672c5f5b3984f59a2b4a421" prot="public" static="no" mutable="no">
+        <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements** Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data** Collision expected and actual joint angles** Motor states</definition>
+        <argsstring></argsstring>
+        <name>states</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="17" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="calibration_8rst_8txt_1a53765f135ff7fb26643dc6f32aad768a" prot="public" static="no" mutable="no">
+        <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements** Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data** Collision expected and actual joint angles** Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same input</definition>
+        <argsstring></argsstring>
+        <name>input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="34" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="calibration_8rst_8txt_1a0edd35899426361bbf6b9ec441934333" prot="public" static="no" mutable="no">
+        <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same resolution shows the detection of small changes in the measured parameter Approaches Measuring Tension Changes~The tension in all motors changes while one is changing</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements** Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data** Collision expected and actual joint angles** Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same resolution shows the detection of small changes in the measured parameter Approaches Measuring Tension Changes ~ The tension in all motors changes while one is changing tension</definition>
+        <argsstring></argsstring>
+        <name>tension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="43" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="calibration_8rst_8txt_1a1a3f42ddfab5b888f2ec8718e29ebc52" prot="public" static="no" mutable="no">
+        <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same resolution shows the detection of small changes in the measured parameter Approaches Measuring Tension Changes~The tension in all motors changes while one is changing which is connected to four the motor increases its tension until the sensor reports a certain position This gives the absolute position image::images Robot png Motion Capture~Stereo vision motion capture systems can provide joint angle data in real time The chair of Robotics at TUM developed this system in order to calibrate a torso robot with The elbow joint was calibrated via few steady state poses that had a great variety in the joint</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements** Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data** Collision expected and actual joint angles** Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same resolution shows the detection of small changes in the measured parameter Approaches Measuring Tension Changes ~ The tension in all motors changes while one is changing which is connected to four the motor increases its tension until the sensor reports a certain position This gives the absolute position image:: images Robot png Motion Capture ~ Stereo vision motion capture systems can provide joint angle data in real time The chair of Robotics at TUM developed this system in order to calibrate a torso robot with The elbow joint was calibrated via few steady state poses that had a great variety in the joint movements</definition>
+        <argsstring></argsstring>
+        <name>movements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="56" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="calibration_8rst_8txt_1ad7f825f1b61670213e1af279ed767e2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same resolution shows the detection of small changes in the measured parameter Approaches Measuring Tension Changes~The tension in all motors changes while one is changing which is connected to four</type>
+        <definition>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements** Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data** Collision expected and actual joint angles** Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same resolution shows the detection of small changes in the measured parameter Approaches Measuring Tension Changes ~ The tension in all motors changes while one is changing which is connected to four Motors</definition>
+        <argsstring>(see picture).The position is determined by changing the tension in one motor.Changes of tension in the other three directions are measured and allow to calculate the current position of the robot.Measuring Force/Torque~~~~~~~~~~~~~~~~~~~~~~Sensors are installed between the different parts of the body(i.e.spine).During initialization</argsstring>
+        <name>Motors</name>
+        <param>
+          <type>see</type>
+          <declname>picture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/calibration/calibration.rst.txt" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">Calibration</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">===========</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">Overview</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">--------</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">Roboy<sp/>1.0<sp/>currently<sp/>needs<sp/>two<sp/>people<sp/>and<sp/>a<sp/>lot<sp/>of<sp/>time<sp/>to<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>initialized<sp/>and<sp/>calibrated.<sp/>The<sp/>motors/muscles<sp/>only<sp/>give<sp/>relative<sp/>positions,<sp/>which<sp/>makes<sp/>it<sp/>impossible<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>Roboy<sp/>to<sp/>know<sp/>where<sp/>his<sp/>spine,<sp/>arms,<sp/>etc<sp/>are<sp/>without<sp/>further<sp/>information.<sp/>Roboy<sp/>2.0<sp/>shall<sp/>be<sp/>able<sp/>to<sp/>move<sp/>to<sp/>the<sp/>initial<sp/>position<sp/>by<sp/>himself,<sp/>or<sp/>at<sp/>least<sp/>faster<sp/>and<sp/>with<sp/>less<sp/>help<sp/>than<sp/>right<sp/>now.</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">Requirements</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">~~~~~~~~~~~~</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">**Error<sp/>detection:**</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">If<sp/>a<sp/>robot<sp/>moves<sp/>automatically<sp/>to<sp/>the<sp/>initial<sp/>position,<sp/>it<sp/>might<sp/>hurt<sp/>himself<sp/>by<sp/>doing<sp/>so.<sp/>Therfore<sp/>it<sp/>is<sp/>essential<sp/>that<sp/>errors<sp/>are<sp/>detected<sp/>and<sp/>reported<sp/>to<sp/>the<sp/>system,<sp/>as<sp/>the<sp/>robot<sp/>might<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>damaged<sp/>otherwise.<sp/>This<sp/>detection<sp/>can<sp/>be<sp/>realized<sp/>through<sp/>the<sp/>evaluation<sp/>of<sp/>sensor<sp/>data.</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">**Collision<sp/>prediction:**</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">Prediction<sp/>through<sp/>motor<sp/>states,<sp/>expected<sp/>and<sp/>actual<sp/>joint<sp/>angles</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">**Motor<sp/>states:**</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">This<sp/>information<sp/>is<sp/>given<sp/>from<sp/>Middleware/Simulation</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">**Sensor<sp/>states:**</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">This<sp/>information<sp/>is<sp/>given<sp/>from<sp/>Middleware/Simulation</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">**Motor<sp/>commands:**</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">The<sp/>commands<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>steering<sp/>Roboy<sp/>are<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ROS<sp/>to<sp/>communicate<sp/>with<sp/>Middleware<sp/>or<sp/>Simulation</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">Calibration</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">~~~~~~~~~~~</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">..<sp/>image::<sp/>images/sensors_PerfectSensor.png</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">Calibration<sp/>is<sp/>the<sp/>comparision<sp/>of<sp/>measured<sp/>and<sp/>actual/standartized<sp/>parameters,<sp/>the<sp/>most<sp/>important<sp/>characteristics<sp/>are<sp/>precision<sp/>and<sp/>resolution.</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">Precision<sp/>is<sp/>defined<sp/>by<sp/>the<sp/>variation<sp/>of<sp/>its<sp/>output<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>the<sp/>same<sp/>input,<sp/>resolution<sp/>shows<sp/>the<sp/>detection<sp/>of<sp/>small<sp/>changes<sp/>in<sp/>the<sp/>measured<sp/>parameter.</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">Approaches</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">----------</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">Measuring<sp/>Tension<sp/>Changes</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">~~~~~~~~~~~~~~~~~~~~~~~~~</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">The<sp/>tension<sp/>in<sp/>all<sp/>motors<sp/>changes<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>one<sp/>is<sp/>changing<sp/>tension:<sp/>This<sp/>system<sp/>is<sp/>developed<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>a<sp/>robot<sp/>with<sp/>only<sp/>2DoF,<sp/>which<sp/>is<sp/>connected<sp/>to<sp/>four<sp/>Motors<sp/>(see<sp/>picture).<sp/>The<sp/>position<sp/>is<sp/>determined<sp/>by<sp/>changing<sp/>the<sp/>tension<sp/>in<sp/>one<sp/>motor.<sp/>Changes<sp/>of<sp/>tension<sp/>in<sp/>the<sp/>other<sp/>three<sp/>directions<sp/>are<sp/>measured<sp/>and<sp/>allow<sp/>to<sp/>calculate<sp/>the<sp/>current<sp/>position<sp/>of<sp/>the<sp/>robot.</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">Measuring<sp/>Force/Torque</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">~~~~~~~~~~~~~~~~~~~~~~</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">Sensors<sp/>are<sp/>installed<sp/>between<sp/>the<sp/>different<sp/>parts<sp/>of<sp/>the<sp/>body<sp/>(i.e.<sp/>spine).<sp/>During<sp/>initialization,<sp/>the<sp/>motor<sp/>increases<sp/>its<sp/>tension<sp/>until<sp/>the<sp/>sensor<sp/>reports<sp/>a<sp/>certain<sp/>position.<sp/>This<sp/>gives<sp/>the<sp/>absolute<sp/>position.</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">..<sp/>image::<sp/>images/2DoF-Robot.png</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">Motion<sp/>Capture</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">~~~~~~~~~~~~~~</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">Stereo-vision<sp/>motion<sp/>capture<sp/>systems<sp/>can<sp/>provide<sp/>joint<sp/>angle<sp/>data<sp/>in<sp/>real-time.<sp/>The<sp/>chair<sp/>of<sp/>Robotics<sp/>at<sp/>TUM<sp/>developed<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>system<sp/>in<sp/>order<sp/>to<sp/>calibrate<sp/>a<sp/>torso-robot<sp/>with<sp/>spine,<sp/>arms,...</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">The<sp/>elbow<sp/>joint<sp/>was<sp/>calibrated<sp/>via<sp/>few<sp/>steady-state<sp/>poses<sp/>that<sp/>had<sp/>a<sp/>great<sp/>variety<sp/>in<sp/>the<sp/>joint<sp/>movements,<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>the<sp/>shoulder<sp/>was<sp/>kept<sp/>still.<sp/>Motion<sp/>capture<sp/>can<sp/>compensate<sp/>the<sp/>lack<sp/>of<sp/>joint<sp/>angle<sp/>sensors.</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">The<sp/>paper<sp/></highlight><highlight class="stringliteral">&quot;Calibration<sp/>of<sp/>a<sp/>Physics-Based<sp/>Model<sp/>of<sp/>an<sp/>Anthropomimetic<sp/>Robot<sp/>using<sp/>Evolution<sp/>Strategies&quot;</highlight><highlight class="normal"><sp/>presents<sp/>an<sp/>automoted<sp/>steady-state<sp/>pose<sp/>calibration<sp/>of<sp/>an<sp/>anthropomimetic<sp/>robot<sp/>model.<sp/>Goal<sp/>of<sp/>the<sp/>work<sp/>is<sp/>to<sp/>reduce<sp/>the<sp/>gap<sp/>between<sp/>simulation<sp/>and<sp/>reality<sp/>to<sp/>a<sp/>minimum.<sp/>The<sp/>lack<sp/>of<sp/>joint<sp/>angle<sp/>data<sp/>in<sp/>the<sp/>robot<sp/>is<sp/>compensated<sp/>by<sp/>a<sp/>motion<sp/>capture<sp/>system<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>stereo-vision<sp/>infrared-markers<sp/>in<sp/>order<sp/>to<sp/>obtain<sp/>the<sp/>required<sp/>input<sp/>data.<sp/>(Link<sp/>to<sp/>the<sp/>paper<sp/>is<sp/>on<sp/>`Confluence<sp/>&lt;https:</highlight><highlight class="comment">//devanthro.atlassian.net/wiki/spaces/CO/pages/75141912/Calibration+with+Motion+Capture&gt;`_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">This<sp/>joint<sp/>angle<sp/>measurement<sp/>with<sp/>motion<sp/>capture<sp/>technique<sp/>might<sp/>help<sp/>to<sp/>calibrate<sp/>Roboy<sp/>1.0,<sp/>as<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>robot<sp/>does<sp/>not<sp/>have<sp/>sensors<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>an<sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/>tracking.<sp/>(We<sp/>can<sp/>use<sp/>external<sp/>tracking<sp/>because<sp/>there<sp/>is<sp/>a<sp/>lighthouse<sp/>tracking<sp/>system<sp/>available).</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">They<sp/>used<sp/>two<sp/>cameras<sp/>with<sp/>infrared<sp/>pass<sp/>filters<sp/>and<sp/>spherical,<sp/>retro-reflective<sp/>markers<sp/>attached<sp/>to<sp/>the<sp/>robot<sp/>limts,<sp/>which<sp/>are<sp/>illuminated<sp/>by<sp/>infrared<sp/>LED<sp/>clusters<sp/>positioned<sp/>next<sp/>to<sp/>the<sp/>cameras.</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">Regarding<sp/>the<sp/>muscle<sp/>model,<sp/>no<sp/>collisions<sp/>between<sp/>the<sp/>muscles<sp/>and<sp/>sceleton<sp/>are<sp/>simulated.<sp/>The<sp/>muscle<sp/>attachment<sp/>points<sp/>are<sp/>approximated<sp/>based<sp/>on<sp/>laser-scan-data<sp/>and<sp/>muscles<sp/>are<sp/>simulated<sp/>as<sp/>direct<sp/>connection<sp/>between<sp/>two<sp/>attachment<sp/>points.</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">Each<sp/>pose<sp/>was<sp/>aquired<sp/>five<sp/>times<sp/>to<sp/>compute<sp/>the<sp/>mean<sp/>and<sp/>standard<sp/>deviation<sp/>of<sp/>the<sp/>joint<sp/>angles,<sp/>because<sp/>anthropomimetic<sp/>robots<sp/>to<sp/>not<sp/>provide<sp/>the<sp/>repeatability<sp/>of<sp/>industrial<sp/>manipulators.</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">Sources</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">-------</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">https:</highlight><highlight class="comment">//learn.adafruit.com/calibrating-sensors/why-calibrate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">https:</highlight><highlight class="comment">//en.wikipedia.org/wiki/Calibration</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">S.<sp/>Wittmeier,<sp/>A.<sp/>Gaschler,<sp/>M.<sp/>Jantsch,<sp/>K.<sp/>Dalamagkidis<sp/>and<sp/>A.<sp/>Knoll.<sp/></highlight><highlight class="stringliteral">&quot;Calibration<sp/>of<sp/>a<sp/>Physics-Based<sp/>Model<sp/>of<sp/>an<sp/>Anthropomimetic<sp/>Robot<sp/>using<sp/>Evolution<sp/>Strategies&quot;</highlight><highlight class="normal">,<sp/>2012,<sp/>IEEE/RSJ<sp/>International<sp/>Conference<sp/>on<sp/>Intelligent<sp/>Robots<sp/>and<sp/>Systems</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">P.<sp/>H.<sp/>Borgstrom,<sp/>B.<sp/>L.<sp/>Jordan,<sp/>B.<sp/>J.<sp/>Borgstrom,<sp/>M.<sp/>J.<sp/>Stealey,<sp/>G.<sp/>S.<sp/>Sukhatme,<sp/>M.<sp/>A.<sp/>Batalin<sp/>and<sp/>W.<sp/>J.<sp/>Kaiser.<sp/></highlight><highlight class="stringliteral">&quot;NIMS-PL:<sp/>A<sp/>Cable-Driven<sp/>Robot<sp/>With<sp/>Self-Calibration<sp/>Capabilities&quot;</highlight><highlight class="normal">,<sp/>2009,<sp/>IEEE<sp/>Transactions<sp/>on<sp/>Robotics,<sp/>Vol.<sp/>25,<sp/>No.<sp/>5,<sp/>October<sp/>2009</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="build/html/_sources/calibration/calibration.rst.txt"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="index_8rst_8txt" kind="file" language="C++">
+    <compoundname>index.rst.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="index_8rst_8txt_1ab6c3d84692afe21b23d4c1fe379fcb59" prot="public" static="no" mutable="no">
+        <type>The Roboy team works on tendon driven robots These motors don t move the robot</type>
+        <definition>The Roboy team works on tendon driven robots These motors don t move the robot directy</definition>
+        <argsstring></argsstring>
+        <name>directy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="3" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1a1356503ddc808586beca076deb0c72a7" prot="public" static="no" mutable="no">
+        <type>The Roboy team works on tendon driven robots These motors don t move the robot but pull a</type>
+        <definition>The Roboy team works on tendon driven robots These motors don t move the robot but pull a cord</definition>
+        <argsstring></argsstring>
+        <name>cord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="3" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1a432e3c18709f57eb170bd68f83cb0a0f" prot="public" static="no" mutable="no">
+        <type>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a</type>
+        <definition>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a spring</definition>
+        <argsstring></argsstring>
+        <name>spring</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="3" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1aa3cefc5ac44c836fa83bce03e6b709f3" prot="public" static="no" mutable="no">
+        <type>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt; img src=&quot;img/Motor1.jpg&quot;alt=&quot;Drawing&quot;style=&quot;width: 200px;&quot;/&gt; When a robot is</type>
+        <definition>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt;img src=&quot;img/Motor1.jpg&quot; alt=&quot;Drawing&quot; style=&quot;width: 200px;&quot;/&gt; When a robot is started</definition>
+        <argsstring></argsstring>
+        <name>started</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="7" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1a365212b331da6ae8619793632dedf8c6" prot="public" static="no" mutable="no">
+        <type>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt; img src=&quot;img/Motor1.jpg&quot;alt=&quot;Drawing&quot;style=&quot;width: 200px;&quot;/&gt; When a robot is it loses all knowledge about its motor positions Therefore only relative positions are</type>
+        <definition>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt;img src=&quot;img/Motor1.jpg&quot; alt=&quot;Drawing&quot; style=&quot;width: 200px;&quot;/&gt; When a robot is it loses all knowledge about its motor positions Therefore only relative positions are transmitted</definition>
+        <argsstring></argsstring>
+        <name>transmitted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="7" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1a745974b054d7a170630548bb3581bcf2" prot="public" static="no" mutable="no">
+        <type>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt; img src=&quot;img/Motor1.jpg&quot;alt=&quot;Drawing&quot;style=&quot;width: 200px;&quot;/&gt; When a robot is it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for</type>
+        <definition>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt;img src=&quot;img/Motor1.jpg&quot; alt=&quot;Drawing&quot; style=&quot;width: 200px;&quot;/&gt; When a robot is it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for calibration</definition>
+        <argsstring></argsstring>
+        <name>calibration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="9" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1ad7685ac2e37e3ad897001bedeaf4140d" prot="public" static="no" mutable="no">
+        <type>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt; img src=&quot;img/Motor1.jpg&quot;alt=&quot;Drawing&quot;style=&quot;width: 200px;&quot;/&gt; When a robot is it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional</type>
+        <definition>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt;img src=&quot;img/Motor1.jpg&quot; alt=&quot;Drawing&quot; style=&quot;width: 200px;&quot;/&gt; When a robot is it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional space</definition>
+        <argsstring></argsstring>
+        <name>space</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="11" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1a810893a6c37defa3c1274aae7a7be4b4" prot="public" static="no" mutable="no">
+        <type>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt; img src=&quot;img/Motor1.jpg&quot;alt=&quot;Drawing&quot;style=&quot;width: 200px;&quot;/&gt; When a robot is it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional which makes it easier to calibrate Roboy does not use ROS and misses joint angle</type>
+        <definition>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt;img src=&quot;img/Motor1.jpg&quot; alt=&quot;Drawing&quot; style=&quot;width: 200px;&quot;/&gt; When a robot is it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional which makes it easier to calibrate Roboy does not use ROS and misses joint angle sensors</definition>
+        <argsstring></argsstring>
+        <name>sensors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="17" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1ade2dabf3218d56bea1f68f3be370dd39" prot="public" static="no" mutable="no">
+        <type>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt; img src=&quot;img/Motor1.jpg&quot;alt=&quot;Drawing&quot;style=&quot;width: 200px;&quot;/&gt; When a robot is it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional which makes it easier to calibrate Roboy does not use ROS and misses joint angle which makes the implementation very complicated It is more reasonable to focus on the newer</type>
+        <definition>The Roboy team works on tendon driven robots These motors don t move the robot but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like&lt;img src=&quot;img/Motor1.jpg&quot; alt=&quot;Drawing&quot; style=&quot;width: 200px;&quot;/&gt; When a robot is it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional which makes it easier to calibrate Roboy does not use ROS and misses joint angle which makes the implementation very complicated It is more reasonable to focus on the newer robots</definition>
+        <argsstring></argsstring>
+        <name>robots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="17" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#<sp/>Tendon-driven<sp/>Robots</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">The<sp/>Roboy<sp/>team<sp/>works<sp/>on<sp/>tendon-driven<sp/>robots.<sp/>These<sp/>motors<sp/>don</highlight><highlight class="stringliteral">&apos;t<sp/>move<sp/>the<sp/>robot<sp/>directy,<sp/>but<sp/>pull<sp/>a<sp/>cord,<sp/>which<sp/>translates<sp/>the<sp/>motion<sp/>onto<sp/>the<sp/>robot<sp/>parts.<sp/>This<sp/>tendon<sp/>is<sp/>attached<sp/>to<sp/>a<sp/>spring,<sp/>which<sp/>adds<sp/>more<sp/>flexibility<sp/>to<sp/>the<sp/>system<sp/>and<sp/>makes<sp/>its<sp/>behaviour<sp/>more<sp/>human-like.</highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral">&lt;img<sp/>src=&quot;img/Motor1.jpg&quot;<sp/>alt=&quot;Drawing&quot;<sp/>style=&quot;width:<sp/>200px;&quot;/&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral">When<sp/>a<sp/>robot<sp/>is<sp/>started,<sp/>it<sp/>loses<sp/>all<sp/>knowledge<sp/>about<sp/>its<sp/>motor<sp/>positions.<sp/>Therefore<sp/>only<sp/>relative<sp/>positions<sp/>are<sp/>transmitted,<sp/>the<sp/>robot<sp/>doesn&apos;</highlight><highlight class="normal">t<sp/>know<sp/>the<sp/>current<sp/>absolute<sp/>pose<sp/>of<sp/>its<sp/>parts.</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">This<sp/>shows<sp/>the<sp/>need<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>calibration:<sp/>A<sp/>calibration<sp/>procedure<sp/>can<sp/>discover<sp/>the<sp/>motion<sp/>limits<sp/>and<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>the<sp/>robot<sp/>into<sp/>a<sp/>standartized<sp/>initial<sp/>pose.<sp/>The<sp/>absolute<sp/>values<sp/>can<sp/>be<sp/>translated<sp/>into<sp/>relative<sp/>ones.</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">The<sp/>big<sp/>picture<sp/>is<sp/>to<sp/>have<sp/>a<sp/>calibration<sp/>program<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>Roboy<sp/>2.0.<sp/>But<sp/>as<sp/>Roboy<sp/>2.0<sp/>doesn</highlight><highlight class="stringliteral">&apos;t<sp/>exist<sp/>yet,<sp/>we<sp/>have<sp/>to<sp/>start<sp/>with<sp/>the<sp/>PaBiLegs.<sp/>The<sp/>motors<sp/>only<sp/>move<sp/>in<sp/>a<sp/>2-dimensional<sp/>space,<sp/>which<sp/>makes<sp/>it<sp/>easier<sp/>to<sp/>calibrate.</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral">#<sp/>Why<sp/>is<sp/>there<sp/>no<sp/>calibration<sp/>improvement<sp/>for<sp/>Roboy<sp/>1.0?</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral">Roboy<sp/>1.0<sp/>does<sp/>not<sp/>use<sp/>ROS<sp/>and<sp/>misses<sp/>joint<sp/>angle<sp/>sensors,<sp/>which<sp/>makes<sp/>the<sp/>implementation<sp/>very<sp/>complicated.<sp/>It<sp/>is<sp/>more<sp/>reasonable<sp/>to<sp/>focus<sp/>on<sp/>the<sp/>newer<sp/>robots,<sp/>like<sp/>i.e.<sp/>PaBiLegs.</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral"></highlight></codeline>
+    </programlisting>
+    <location file="build/html/_sources/index.rst.txt"/>
+  </compounddef>
+</doxygen>

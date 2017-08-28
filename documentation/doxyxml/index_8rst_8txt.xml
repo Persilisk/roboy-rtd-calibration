@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="index_8rst_8txt" kind="file" language="C++">
+    <compoundname>index.rst.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="index_8rst_8txt_1a636ca6b95f5129da8b6de675e1793b9b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Home</definition>
+        <argsstring></argsstring>
+        <name>Home</name>
+        <initializer>====
+Tendon-driven Robots
+--------------------
+
+The Roboy team works on tendon-driven robots. These motors don&apos;t move the robot directy</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="1" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1af91f5ac7fe5849cc57b29fae24ccc65f" prot="public" static="no" mutable="no">
+        <type>but pull a</type>
+        <definition>but pull a cord</definition>
+        <argsstring></argsstring>
+        <name>cord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="6" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1a3710f6b872675f1e924a593c6c8325ec" prot="public" static="no" mutable="no">
+        <type>but pull a which translates the motion onto the robot parts This tendon is attached to a</type>
+        <definition>but pull a which translates the motion onto the robot parts This tendon is attached to a spring</definition>
+        <argsstring></argsstring>
+        <name>spring</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="6" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1a03801ab36113272a0d56ffacae54b8e8" prot="public" static="no" mutable="no">
+        <type>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image::images Motor1</type>
+        <definition>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image:: images Motor1 jpg</definition>
+        <argsstring></argsstring>
+        <name>jpg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="8" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1afea56c4f12f8968650820b8556bf06c9" prot="public" static="no" mutable="no">
+        <type>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image::images Motor1 it loses all knowledge about its motor positions Therefore only relative positions are</type>
+        <definition>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image:: images Motor1 it loses all knowledge about its motor positions Therefore only relative positions are transmitted</definition>
+        <argsstring></argsstring>
+        <name>transmitted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="11" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1a030c737da7e388a18a8f9466d1a37007" prot="public" static="no" mutable="no">
+        <type>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image::images Motor1 it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for</type>
+        <definition>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image:: images Motor1 it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for calibration</definition>
+        <argsstring></argsstring>
+        <name>calibration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="13" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1a761104d055e2ebc99676a3457721f2c0" prot="public" static="no" mutable="no">
+        <type>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image::images Motor1 it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional</type>
+        <definition>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image:: images Motor1 it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional space</definition>
+        <argsstring></argsstring>
+        <name>space</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="15" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1ae73c7b33f5cdd8d931bc91a1d80bb84b" prot="public" static="no" mutable="no">
+        <type>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image::images Motor1 it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional which makes it easier to calibrate Why is there no calibration improvement for Roboy Roboy does not use ROS and misses joint angle</type>
+        <definition>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image:: images Motor1 it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional which makes it easier to calibrate Why is there no calibration improvement for Roboy Roboy does not use ROS and misses joint angle sensors</definition>
+        <argsstring></argsstring>
+        <name>sensors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="21" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8rst_8txt_1aa616ea1a94708fc22e440635f1d9e761" prot="public" static="no" mutable="no">
+        <type>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image::images Motor1 it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional which makes it easier to calibrate Why is there no calibration improvement for Roboy Roboy does not use ROS and misses joint angle which makes the implementation very complicated It is more reasonable to focus on the newer</type>
+        <definition>but pull a which translates the motion onto the robot parts This tendon is attached to a which adds more flexibility to the system and makes its behaviour more human like image:: images Motor1 it loses all knowledge about its motor positions Therefore only relative positions are the robot doesn t know the current absolute pose of its parts This shows the need for we have to start with the PaBiLegs The motors only move in a dimensional which makes it easier to calibrate Why is there no calibration improvement for Roboy Roboy does not use ROS and misses joint angle which makes the implementation very complicated It is more reasonable to focus on the newer robots</definition>
+        <argsstring></argsstring>
+        <name>robots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/html/_sources/index.rst.txt" line="21" column="1" bodyfile="build/html/_sources/index.rst.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">Home</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">====</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">Tendon-driven<sp/>Robots</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">--------------------</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">The<sp/>Roboy<sp/>team<sp/>works<sp/>on<sp/>tendon-driven<sp/>robots.<sp/>These<sp/>motors<sp/>don</highlight><highlight class="stringliteral">&apos;t<sp/>move<sp/>the<sp/>robot<sp/>directy,<sp/>but<sp/>pull<sp/>a<sp/>cord,<sp/>which<sp/>translates<sp/>the<sp/>motion<sp/>onto<sp/>the<sp/>robot<sp/>parts.<sp/>This<sp/>tendon<sp/>is<sp/>attached<sp/>to<sp/>a<sp/>spring,<sp/>which<sp/>adds<sp/>more<sp/>flexibility<sp/>to<sp/>the<sp/>system<sp/>and<sp/>makes<sp/>its<sp/>behaviour<sp/>more<sp/>human-like.</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">..<sp/>image::<sp/>images/Motor1.jpg</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral"><sp/><sp/><sp/>:width:<sp/>200<sp/>px</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">When<sp/>a<sp/>robot<sp/>is<sp/>started,<sp/>it<sp/>loses<sp/>all<sp/>knowledge<sp/>about<sp/>its<sp/>motor<sp/>positions.<sp/>Therefore<sp/>only<sp/>relative<sp/>positions<sp/>are<sp/>transmitted,<sp/>the<sp/>robot<sp/>doesn&apos;</highlight><highlight class="normal">t<sp/>know<sp/>the<sp/>current<sp/>absolute<sp/>pose<sp/>of<sp/>its<sp/>parts.</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">This<sp/>shows<sp/>the<sp/>need<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>calibration:<sp/>A<sp/>calibration<sp/>procedure<sp/>can<sp/>discover<sp/>the<sp/>motion<sp/>limits<sp/>and<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>the<sp/>robot<sp/>into<sp/>a<sp/>standartized<sp/>initial<sp/>pose.<sp/>The<sp/>absolute<sp/>values<sp/>can<sp/>be<sp/>translated<sp/>into<sp/>relative<sp/>ones.</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">The<sp/>big<sp/>picture<sp/>is<sp/>to<sp/>have<sp/>a<sp/>calibration<sp/>program<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>Roboy<sp/>2.0.<sp/>But<sp/>as<sp/>Roboy<sp/>2.0<sp/>doesn</highlight><highlight class="stringliteral">&apos;t<sp/>exist<sp/>yet,<sp/>we<sp/>have<sp/>to<sp/>start<sp/>with<sp/>the<sp/>PaBiLegs.<sp/>The<sp/>motors<sp/>only<sp/>move<sp/>in<sp/>a<sp/>2-dimensional<sp/>space,<sp/>which<sp/>makes<sp/>it<sp/>easier<sp/>to<sp/>calibrate.</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral">Why<sp/>is<sp/>there<sp/>no<sp/>calibration<sp/>improvement<sp/>for<sp/>Roboy<sp/>1.0?</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral">------------------------------------------------------</highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral">Roboy<sp/>1.0<sp/>does<sp/>not<sp/>use<sp/>ROS<sp/>and<sp/>misses<sp/>joint<sp/>angle<sp/>sensors,<sp/>which<sp/>makes<sp/>the<sp/>implementation<sp/>very<sp/>complicated.<sp/>It<sp/>is<sp/>more<sp/>reasonable<sp/>to<sp/>focus<sp/>on<sp/>the<sp/>newer<sp/>robots,<sp/>like<sp/>i.e.<sp/>PaBiLegs.</highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="23"><highlight class="stringliteral">Contents:</highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="25"><highlight class="stringliteral">..<sp/>_documentation:</highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral">..<sp/>toctree::</highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral"><sp/><sp/>:maxdepth:<sp/>5</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral"><sp/><sp/>./*.rst</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral">..<sp/>_calibration:</highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral">..<sp/>toctree::</highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral"><sp/><sp/>:maxdepth:<sp/>1</highlight></codeline>
+<codeline lineno="34"><highlight class="stringliteral"><sp/><sp/>:glob:</highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral"><sp/><sp/>calibration/*</highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="38"><highlight class="stringliteral">..<sp/>_pabilegs:</highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral">..<sp/>toctree::</highlight></codeline>
+<codeline lineno="40"><highlight class="stringliteral"><sp/><sp/>:maxdepth:<sp/>1</highlight></codeline>
+<codeline lineno="41"><highlight class="stringliteral"><sp/><sp/>:glob:</highlight></codeline>
+<codeline lineno="42"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral"><sp/><sp/>pabilegs/*</highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral">..<sp/>_intcal:</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral">..<sp/>toctree::</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"><sp/><sp/>:maxdepth:<sp/>1</highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral"><sp/><sp/>:glob:</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/>intcal/*</highlight></codeline>
+    </programlisting>
+    <location file="build/html/_sources/index.rst.txt"/>
+  </compounddef>
+</doxygen>

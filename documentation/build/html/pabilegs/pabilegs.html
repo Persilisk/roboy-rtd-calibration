@@ -1,0 +1,285 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>PaBiLegs &mdash; PaBiLegs Calibration 0.0. documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="PaBiLegs Calibration 0.0. documentation" href="../index.html"/>
+        <link rel="next" title="Internal Calibration Procedure" href="../intcal/intcal.html"/>
+        <link rel="prev" title="Calibration" href="../calibration/calibration.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PaBiLegs Calibration
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../calibration/calibration.html">Calibration</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">PaBiLegs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pabilegs-structure">PaBiLegs Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#general-approach">General Approach</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#internal-calibration">Internal calibration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#external-calibration">External calibration</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#important-links-for-the-pabilegs">Important links for the PaBiLegs</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intcal/intcal.html">Internal Calibration Procedure</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PaBiLegs Calibration</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>PaBiLegs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/pabilegs/pabilegs.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pabilegs">
+<h1>PaBiLegs<a class="headerlink" href="#pabilegs" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="pabilegs-structure">
+<h2>PaBiLegs Structure<a class="headerlink" href="#pabilegs-structure" title="Permalink to this headline">¶</a></h2>
+<p>The PaBiLegs consists of 4 joints and 8 motors, as every joint is moved by two motors (one in each direction). Angle sensors are built into each joint and allow us to know the position of the legs. A FPGA is used for the connection to the computer and communicates with the motors and joint angle sensors.</p>
+<p>A force sensor within the motor allows to see how tight the spring tensed. This gives an insight into the force changes while other motors are actuating.</p>
+<img alt="../_images/PaBiLegs.jpg" src="../_images/PaBiLegs.jpg" />
+</div>
+<div class="section" id="general-approach">
+<h2>General Approach<a class="headerlink" href="#general-approach" title="Permalink to this headline">¶</a></h2>
+<p>The calibration procedure shall move the robot to an initial state, from which other programs can take over. This requires the following:</p>
+<ul class="simple">
+<li>A steady pose, that is always the same.</li>
+<li>The slot number of each motor and its position on the robot.</li>
+</ul>
+<p>There are more slots in the FPGA than motors and motors might get connected to different slots from time to time. Calibration has to identify the motors and connect each two motors to the joints they are moving.</p>
+<p>Calibration can be done in two ways:</p>
+<div class="section" id="internal-calibration">
+<h3>Internal calibration<a class="headerlink" href="#internal-calibration" title="Permalink to this headline">¶</a></h3>
+<p>The data about force changes and joint angle movement is enougth information to identify the parts and connect them in pairs of motors and a coherent angle.</p>
+<p>This calibration procedure is currently in developement.</p>
+</div>
+<div class="section" id="external-calibration">
+<h3>External calibration<a class="headerlink" href="#external-calibration" title="Permalink to this headline">¶</a></h3>
+<p>The robotics chair at TUM worked on a tendon-driven robot and calibration techniques with motion capture. The PaBiLegs can be tracked via <a class="reference external" href="https://www.uco.es/investiga/grupos/ava/node/26">ArUco-markers</a> or <a class="reference external" href="https://devanthro.atlassian.net/wiki/spaces/RM/pages/75635359/Lighthouse+Tracking">lighthouse tracking</a>, so this paper could help with the calibration. As one can get the exact picture of the robot’s movements with this technology, calibration will be more precise.</p>
+</div>
+</div>
+<div class="section" id="important-links-for-the-pabilegs">
+<h2>Important links for the PaBiLegs<a class="headerlink" href="#important-links-for-the-pabilegs" title="Permalink to this headline">¶</a></h2>
+<p>Getting started:</p>
+<p><a class="reference external" href="https://devanthro.atlassian.net/wiki/spaces/CO/pages/75250222/Tutorial+of+how+to+control+the+PaBiLegs">Tutorial of how to control the PaBiLegs</a></p>
+<p>Github repositories:</p>
+<p><a class="reference external" href="https://github.com/Roboy/roboy-ros-control">Github - roboy-ros-control</a></p>
+<p><a class="reference external" href="https://github.com/Roboy/myoFPGA/tree/feature/calibration">Github - myoFPGA</a></p>
+<p>Dancing code for the PaBiLegs:</p>
+<p><a class="reference external" href="http://roboy-error-detection.readthedocs.io/en/latest/1-familiarize-with-motors-and-joints">http://roboy-error-detection.readthedocs.io/en/latest/1-familiarize-with-motors-and-joints</a></p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../intcal/intcal.html" class="btn btn-neutral float-right" title="Internal Calibration Procedure" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../calibration/calibration.html" class="btn btn-neutral" title="Calibration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Raphael Dürscheid, based on Template by Dr. Peter.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.0.',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

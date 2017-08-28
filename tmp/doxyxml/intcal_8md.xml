@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="intcal_8md" kind="file" language="Markdown">
+    <compoundname>intcal.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Goal</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>PaBiLegs<sp/>shall<sp/>be<sp/>put<sp/>into<sp/>an<sp/>initial<sp/>pose<sp/>during<sp/>the<sp/>calibration<sp/>procedure.<sp/>All<sp/>eight<sp/>motors<sp/>shall<sp/>each<sp/>be<sp/>assigned<sp/>to<sp/>their<sp/>position<sp/>on<sp/>the<sp/>robot<sp/>and<sp/>tightended<sp/>in<sp/>order<sp/>to<sp/>hold<sp/>the<sp/>initial<sp/>pose.<sp/>Their<sp/>positions<sp/>will<sp/>be<sp/>saved<sp/>in<sp/>the<sp/>code,<sp/>so<sp/>that<sp/>further<sp/>programs<sp/>can<sp/>address<sp/>a<sp/>motor<sp/>position<sp/>and<sp/>don&apos;t<sp/>have<sp/>to<sp/>care<sp/>about<sp/>its<sp/>slot<sp/>number<sp/>on<sp/>the<sp/>FPGA.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](img/PaBiLegsABC.jpg)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>picture<sp/>shows<sp/>a<sp/>possible<sp/>order<sp/>for<sp/>the<sp/>motor<sp/>positions.<sp/>The<sp/>corresponding<sp/>slot<sp/>number<sp/>can<sp/>be<sp/>saved<sp/>i.e.<sp/>in<sp/>an<sp/>array.<sp/>One<sp/>would<sp/>then<sp/>only<sp/>have<sp/>to<sp/>address<sp/>the<sp/>array[0]<sp/>for<sp/>motor<sp/>A,<sp/>array[1]<sp/>for<sp/>motor<sp/>B,...</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Current<sp/>Approach</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>roboy-ros-control<sp/>code<sp/>goes<sp/>through<sp/>the<sp/>following<sp/>system<sp/>states:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>**WaitForInitialize**<sp/>motors<sp/>are<sp/>initialized<sp/>via<sp/>command<sp/>line<sp/></highlight></codeline>
+<codeline><highlight class="normal">*<sp/>**ResetPowerlinkStack**<sp/>resets<sp/>Powerlink<sp/>Stack</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>**Controlloop**<sp/>waits<sp/>for<sp/>input<sp/>via<sp/>command<sp/>line<sp/>and<sp/>moves<sp/>the<sp/>motors<sp/>accordingly</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">A<sp/>fourth<sp/>state<sp/>**Calibration**<sp/>is<sp/>added<sp/>between<sp/>ResetPowerlinkStack<sp/>and<sp/>Controlloop.<sp/>This<sp/>will<sp/>calibrate<sp/>the<sp/>robot<sp/>within<sp/>the<sp/>setup<sp/>procedure.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>the<sp/>calibration<sp/>procedure,<sp/>the<sp/>robot<sp/>should<sp/>hang<sp/>on<sp/>the<sp/>frame<sp/>without<sp/>touching<sp/>the<sp/>floor.<sp/>This<sp/>reduces<sp/>external<sp/>factors,<sp/>that<sp/>might<sp/>complicate<sp/>measurements.<sp/>In<sp/>the<sp/>beginning<sp/>it<sp/>is<sp/>best<sp/>to<sp/>tighten<sp/>each<sp/>motor<sp/>until<sp/>there<sp/>is<sp/>a<sp/>little<sp/>spring<sp/>displacement<sp/>noticeable,<sp/>as<sp/>force<sp/>changes<sp/>can<sp/>only<sp/>be<sp/>detected<sp/>properly<sp/>when<sp/>each<sp/>sensor<sp/>has<sp/>valid<sp/>values<sp/>to<sp/>begin<sp/>with.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Following<sp/>up<sp/>to<sp/>that,<sp/>a<sp/>single<sp/>motor<sp/>shall<sp/>increase<sp/>its<sp/>force.<sp/>The<sp/>joint<sp/>with<sp/>the<sp/>highest<sp/>angle<sp/>difference<sp/>will<sp/>be<sp/>connected<sp/>to<sp/>that<sp/>motor<sp/>and<sp/>the<sp/>program<sp/>can<sp/>save<sp/>this<sp/>gained<sp/>information.<sp/>The<sp/>force<sp/>changes<sp/>of<sp/>the<sp/>other<sp/>motor<sp/>springs<sp/>might<sp/>also<sp/>give<sp/>a<sp/>hint<sp/>on<sp/>the<sp/>second<sp/>motor<sp/>of<sp/>the<sp/>pair.</highlight></codeline>
+<codeline><highlight class="normal">This<sp/>can<sp/>be<sp/>repeated<sp/>for<sp/>all<sp/>motors.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Now,<sp/>the<sp/>amount<sp/>of<sp/>possible<sp/>positions<sp/>for<sp/>each<sp/>motor<sp/>is<sp/>reduced<sp/>to<sp/>two.<sp/>As<sp/>the<sp/>forces<sp/>change<sp/>on<sp/>all<sp/>motors<sp/>when<sp/>one<sp/>part<sp/>of<sp/>the<sp/>robot<sp/>is<sp/>moved,<sp/>one<sp/>can<sp/>determine<sp/>whether<sp/>a<sp/>motor<sp/>is<sp/>on<sp/>the<sp/>inner<sp/>or<sp/>outer<sp/>side<sp/>of<sp/>a<sp/>joint.</highlight></codeline>
+<codeline><highlight class="normal">Here<sp/>it<sp/>might<sp/>help<sp/>to<sp/>play<sp/>around<sp/>a<sp/>little<sp/>with<sp/>the<sp/>GUI<sp/>of<sp/>the<sp/>myoFPGA-code:<sp/>The<sp/>diagrams<sp/>show<sp/>all<sp/>force<sp/>changes<sp/>and<sp/>joint<sp/>displacements.<sp/>Depending<sp/>on<sp/>which<sp/>motor<sp/>is<sp/>moved,<sp/>the<sp/>force<sp/>on<sp/>the<sp/>other<sp/>motors<sp/>in-<sp/>or<sp/>decreases<sp/>in<sp/>a<sp/>regular<sp/>pattern.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">After<sp/>assigning<sp/>the<sp/>motor<sp/>positions,<sp/>the<sp/>robot<sp/>has<sp/>to<sp/>move<sp/>into<sp/>its<sp/>initial<sp/>pose.<sp/>In<sp/>order<sp/>to<sp/>figure<sp/>out<sp/>the<sp/>current<sp/>absolute<sp/>position<sp/>of<sp/>a<sp/>robot<sp/>part,<sp/>it<sp/>has<sp/>to<sp/>be<sp/>moved<sp/>to<sp/>its<sp/>limit.<sp/>Two<sp/>motors<sp/>need<sp/>to<sp/>be<sp/>steered<sp/>for<sp/>this,<sp/>as<sp/>each<sp/>robot<sp/>part<sp/>is<sp/>moved<sp/>by<sp/>two<sp/>motors.<sp/>With<sp/>the<sp/>discovered<sp/>limits,<sp/>each<sp/>robot<sp/>part<sp/>can<sp/>enter<sp/>its<sp/>predefined<sp/>relative<sp/>position<sp/>and<sp/>the<sp/>robot<sp/>is<sp/>ready<sp/>for<sp/>further<sp/>use.</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Code<sp/>structure</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>roboy-ros-control<sp/>repository<sp/>consists<sp/>of<sp/>many<sp/>submodules.<sp/>Some<sp/>of<sp/>them<sp/>-<sp/>like<sp/>the<sp/>`roboy_simulation`<sp/>or<sp/>`roboy_models`<sp/>repositories<sp/>-<sp/>aren&apos;t<sp/>needed<sp/>for<sp/>our<sp/>case,<sp/>but<sp/>it&apos;s<sp/>better<sp/>to<sp/>leave<sp/>them<sp/>where<sp/>they<sp/>are.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>class,<sp/>which<sp/>contains<sp/>the<sp/>code,<sp/>is<sp/>called<sp/>&quot;roboy.cpp&quot;<sp/>with<sp/>the<sp/>corresponding<sp/>header<sp/>&quot;roboy.hpp&quot;.<sp/>Both<sp/>files<sp/>are<sp/>part<sp/>of<sp/>the<sp/>`roboy_managing_node`<sp/>repository<sp/>and<sp/>can<sp/>be<sp/>found<sp/>in<sp/>the<sp/>folders<sp/>/include<sp/>and<sp/>/src.</highlight></codeline>
+<codeline><highlight class="normal">&quot;roboy.cpp&quot;<sp/>uses<sp/>methods<sp/>from<sp/>the<sp/>controller<sp/>classes,<sp/>which<sp/>can<sp/>be<sp/>found<sp/>in<sp/>the<sp/>`roboy_controller`<sp/>repository.<sp/>These<sp/>classes<sp/>don&apos;t<sp/>need<sp/>to<sp/>be<sp/>changed,<sp/>but<sp/>they<sp/>might<sp/>help<sp/>you<sp/>to<sp/>understand<sp/>how<sp/>things<sp/>work.<sp/>As<sp/>we<sp/>need<sp/>to<sp/>work<sp/>with<sp/>the<sp/>force/spring<sp/>displacement<sp/>of<sp/>the<sp/>motors,<sp/>please<sp/>initialize<sp/>the<sp/>motors<sp/>as<sp/>force<sp/>controllers.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`roboy_powerlink`<sp/>manages<sp/>the<sp/>connection<sp/>to<sp/>the<sp/>FPGA.<sp/>Earlier<sp/>or<sp/>later<sp/>commits<sp/>of<sp/>this<sp/>submodule<sp/>change<sp/>the<sp/>communication,<sp/>which<sp/>leads<sp/>to<sp/>errors.<sp/>If<sp/>the<sp/>PaBiLegs<sp/>won&apos;t<sp/>react<sp/>with<sp/>the<sp/>right<sp/>commit,<sp/>you<sp/>might<sp/>need<sp/>to<sp/>flash<sp/>the<sp/>FPGA.</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Progress<sp/>so<sp/>far</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>calibration<sp/>code<sp/>shall<sp/>be<sp/>implemented<sp/>in<sp/>the<sp/>[roboy-ros-control](https://github.com/Roboy/roboy-ros-control)<sp/>repository.<sp/>Many<sp/>people<sp/>work<sp/>on<sp/>its<sp/>modules,<sp/>which<sp/>leads<sp/>to<sp/>complications<sp/>with<sp/>the<sp/>code.<sp/>The<sp/>current<sp/>version<sp/>is<sp/>found<sp/>[here](https://github.com/Persilisk/roboy-ros-control)<sp/>with<sp/>the<sp/>correct<sp/>commits<sp/>of<sp/>its<sp/>submodules.<sp/>Until<sp/>now<sp/>the<sp/>motors<sp/>can<sp/>be<sp/>steered<sp/>only<sp/>via<sp/>commandline.<sp/>The<sp/>&quot;Using<sp/>roboy-ros-control<sp/>instead<sp/>of<sp/>myoFPGA<sp/>repository&quot;<sp/>[tutorial](https://devanthro.atlassian.net/wiki/spaces/CO/pages/75250222/Tutorial+of+how+to+control+the+PaBiLegs)<sp/>explains<sp/>how<sp/>this<sp/>can<sp/>be<sp/>done.</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>What<sp/>to<sp/>do<sp/>next?</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Until<sp/>now,<sp/>most<sp/>of<sp/>the<sp/>work<sp/>has<sp/>been<sp/>research<sp/>and<sp/>conceptual<sp/>design.<sp/>You<sp/>can<sp/>find<sp/>further<sp/>information<sp/>about<sp/>the<sp/>progress<sp/>in<sp/>Confluence.<sp/>The<sp/>[weekly<sp/>reports](https://devanthro.atlassian.net/wiki/display/CO/Johanna+Steer)<sp/>show<sp/>further<sp/>approaches<sp/>and<sp/>why<sp/>they<sp/>didn&apos;t<sp/>work.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>next<sp/>steps<sp/>are<sp/>a<sp/>first<sp/>implementation<sp/>of<sp/>calibration<sp/>and<sp/>the<sp/>definition<sp/>of<sp/>an<sp/>initial<sp/>pose,<sp/>with<sp/>which<sp/>the<sp/>cognition<sp/>team<sp/>can<sp/>work.<sp/>When<sp/>the<sp/>PaBiLegs<sp/>have<sp/>a<sp/>working<sp/>calibration<sp/>method,<sp/>it<sp/>should<sp/>be<sp/>adapted<sp/>to<sp/>work<sp/>on<sp/>other<sp/>robots,<sp/>i.e.<sp/>the<sp/>robot<sp/>arm<sp/>which<sp/>moves<sp/>in<sp/>three<sp/>dimensions.</highlight></codeline>
+    </programlisting>
+    <location file="Legs/intcal.md"/>
+  </compounddef>
+</doxygen>

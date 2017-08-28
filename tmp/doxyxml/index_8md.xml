@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="index_8md" kind="file" language="Markdown">
+    <compoundname>index.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Tendon-driven<sp/>Robots</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>Roboy<sp/>team<sp/>works<sp/>on<sp/>tendon-driven<sp/>robots.<sp/>These<sp/>motors<sp/>don&apos;t<sp/>move<sp/>the<sp/>robot<sp/>directy,<sp/>but<sp/>pull<sp/>a<sp/>cord,<sp/>which<sp/>translates<sp/>the<sp/>motion<sp/>onto<sp/>the<sp/>robot<sp/>parts.<sp/>This<sp/>tendon<sp/>is<sp/>attached<sp/>to<sp/>a<sp/>spring,<sp/>which<sp/>adds<sp/>more<sp/>flexibility<sp/>to<sp/>the<sp/>system<sp/>and<sp/>makes<sp/>its<sp/>behaviour<sp/>more<sp/>human-like.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;img/Motor1.jpg&quot;<sp/>alt=&quot;Drawing&quot;<sp/>style=&quot;width:<sp/>200px;&quot;/&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">When<sp/>a<sp/>robot<sp/>is<sp/>started,<sp/>it<sp/>loses<sp/>all<sp/>knowledge<sp/>about<sp/>its<sp/>motor<sp/>positions.<sp/>Therefore<sp/>only<sp/>relative<sp/>positions<sp/>are<sp/>transmitted,<sp/>the<sp/>robot<sp/>doesn&apos;t<sp/>know<sp/>the<sp/>current<sp/>absolute<sp/>pose<sp/>of<sp/>its<sp/>parts.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>shows<sp/>the<sp/>need<sp/>for<sp/>calibration:<sp/>A<sp/>calibration<sp/>procedure<sp/>can<sp/>discover<sp/>the<sp/>motion<sp/>limits<sp/>and<sp/>set<sp/>the<sp/>robot<sp/>into<sp/>a<sp/>standartized<sp/>initial<sp/>pose.<sp/>The<sp/>absolute<sp/>values<sp/>can<sp/>be<sp/>translated<sp/>into<sp/>relative<sp/>ones.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>big<sp/>picture<sp/>is<sp/>to<sp/>have<sp/>a<sp/>calibration<sp/>program<sp/>for<sp/>Roboy<sp/>2.0.<sp/>But<sp/>as<sp/>Roboy<sp/>2.0<sp/>doesn&apos;t<sp/>exist<sp/>yet,<sp/>we<sp/>have<sp/>to<sp/>start<sp/>with<sp/>the<sp/>PaBiLegs.<sp/>The<sp/>motors<sp/>only<sp/>move<sp/>in<sp/>a<sp/>2-dimensional<sp/>space,<sp/>which<sp/>makes<sp/>it<sp/>easier<sp/>to<sp/>calibrate.</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Why<sp/>is<sp/>there<sp/>no<sp/>calibration<sp/>improvement<sp/>for<sp/>Roboy<sp/>1.0?</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Roboy<sp/>1.0<sp/>does<sp/>not<sp/>use<sp/>ROS<sp/>and<sp/>misses<sp/>joint<sp/>angle<sp/>sensors,<sp/>which<sp/>makes<sp/>the<sp/>implementation<sp/>very<sp/>complicated.<sp/>It<sp/>is<sp/>more<sp/>reasonable<sp/>to<sp/>focus<sp/>on<sp/>the<sp/>newer<sp/>robots,<sp/>like<sp/>i.e.<sp/>PaBiLegs.</highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="Legs/index.md"/>
+  </compounddef>
+</doxygen>

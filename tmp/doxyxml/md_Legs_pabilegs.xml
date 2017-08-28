@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="md_Legs_pabilegs" kind="page">
+    <compoundname>md_Legs_pabilegs</compoundname>
+    <title>PaBiLegs Structure</title>
+    <detaileddescription>
+<para>The PaBiLegs consists of 4 joints and 8 motors, as every joint is moved by two motors (one in each direction). Angle sensors are built into each joint and allow us to know the position of the legs. A FPGA is used for the connection to the computer and communicates with the motors and joint angle sensors.</para><para>A force sensor within the motor allows to see how tight the spring tensed. This gives an insight into the force changes while other motors are actuating.</para><para><image type="html" name="PaBiLegs.jpg"></image>
+</para><para><heading level="1">General Approach</heading>
+</para><para>The calibration procedure shall move the robot to an initial state, from which other programs can take over. This requires the following:</para><para><itemizedlist>
+<listitem><para>A steady pose, that is always the same.</para></listitem><listitem><para>The slot number of each motor and its position on the robot.</para></listitem></itemizedlist>
+</para><para>There are more slots in the FPGA than motors and motors might get connected to different slots from time to time. Calibration has to identify the motors and connect each two motors to the joints they are moving.</para><para>Calibration can be done in two ways: <heading level="3">Internal calibration</heading>
+</para><para>The data about force changes and joint angle movement is enougth information to identify the parts and connect them in pairs of motors and a coherent angle.</para><para>This calibration procedure is currently in developement.</para><para><heading level="3">External calibration</heading>
+</para><para>The robotics chair at TUM worked on a tendon-driven robot and calibration techniques with motion capture. The PaBiLegs can be tracked via <ulink url="https://www.uco.es/investiga/grupos/ava/node/26">ArUco-markers</ulink> or <ulink url="https://devanthro.atlassian.net/wiki/spaces/RM/pages/75635359/Lighthouse+Tracking">lighthouse tracking</ulink>, so this paper could help with the calibration. As one can get the exact picture of the robot&apos;s movements with this technology, calibration will be more precise.</para><para><heading level="1">Important links for the PaBiLegs</heading>
+</para><para>Getting started:</para><para><ulink url="https://devanthro.atlassian.net/wiki/spaces/CO/pages/75250222/Tutorial+of+how+to+control+the+PaBiLegs">Tutorial of how to control the PaBiLegs</ulink></para><para>Github repositories:</para><para><ulink url="https://github.com/Roboy/roboy-ros-control">Github - roboy-ros-control</ulink></para><para><ulink url="https://github.com/Roboy/myoFPGA/tree/feature/calibration">Github - myoFPGA</ulink></para><para>Dancing code for the PaBiLegs:</para><para><ulink url="http://roboy-error-detection.readthedocs.io/en/latest/1-familiarize-with-motors-and-joints/">http://roboy-error-detection.readthedocs.io/en/latest/1-familiarize-with-motors-and-joints/</ulink> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>
