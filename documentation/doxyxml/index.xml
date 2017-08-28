@@ -632,12 +632,16 @@
   </compound>
   <compound refid="requirements_8txt" kind="file"><name>requirements.txt</name>
   </compound>
-  <compound refid="dir_5ba320136bc4e5245a07b9fdc5fa9a91" kind="dir"><name>build/html/_static</name>
+  <compound refid="dir_e32706bfa505b6bc4037eaebf9a4d178" kind="dir"><name>/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_static</name>
   </compound>
-  <compound refid="dir_4fef79e7177ba769987a8da36c892c5f" kind="dir"><name>build</name>
+  <compound refid="dir_ed7bc29a400174f665940d70699c7c15" kind="dir"><name>/home/johanna/Roboy/sw_documentation_template/documentation/build</name>
   </compound>
-  <compound refid="dir_ba386b0453ec91de46e36b83999df64c" kind="dir"><name>build/html</name>
+  <compound refid="dir_14ae4ebec25b6b5ae76add9e35268199" kind="dir"><name>/home/johanna/Roboy/sw_documentation_template/documentation</name>
   </compound>
-  <compound refid="dir_9973bf883253c73d01f6fc94878d2c2f" kind="dir"><name>build/html/_static/js</name>
+  <compound refid="dir_526f5c82016975f01548a626fedb1460" kind="dir"><name>/home/johanna/Roboy/sw_documentation_template/documentation/build/html</name>
+  </compound>
+  <compound refid="dir_6ba79a783b9b3612a1f102809ee1e63d" kind="dir"><name>/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_static/js</name>
+  </compound>
+  <compound refid="dir_f540234b9c7d19174a795306a58c904e" kind="dir"><name>/home/johanna/Roboy/sw_documentation_template</name>
   </compound>
 </doxygenindex>

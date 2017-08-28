@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_static/js/theme.js" line="1" column="1" bodyfile="build/html/_static/js/theme.js" bodystart="1" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_static/js/theme.js" line="1" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_static/js/theme.js" bodystart="1" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -192,6 +192,6 @@
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
 <codeline lineno="169"><highlight class="normal">},{</highlight><highlight class="stringliteral">&quot;jquery&quot;</highlight><highlight class="normal">:</highlight><highlight class="stringliteral">&quot;jquery&quot;</highlight><highlight class="normal">}]},{},[</highlight><highlight class="stringliteral">&quot;sphinx-rtd-theme&quot;</highlight><highlight class="normal">]);</highlight></codeline>
     </programlisting>
-    <location file="build/html/_static/js/theme.js"/>
+    <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_static/js/theme.js"/>
   </compounddef>
 </doxygen>

@@ -20,7 +20,7 @@ The PaBiLegs consists of 4 joints and 8 motors</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/pabilegs/pabilegs.rst.txt" line="1" column="1" bodyfile="build/html/_sources/pabilegs/pabilegs.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/pabilegs/pabilegs.rst.txt" line="1" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/pabilegs/pabilegs.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -84,12 +84,18 @@ The PaBiLegs consists of 4 joints and 8 motors</initializer>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal">`Github<sp/>-<sp/>myoFPGA<sp/>&lt;https:</highlight><highlight class="comment">//github.com/Roboy/myoFPGA/tree/feature/calibration&gt;`_</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal">Dancing<sp/>code<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>the<sp/>PaBiLegs:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">Github<sp/>repositories<sp/>with<sp/>updated<sp/>code:</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal">http:</highlight><highlight class="comment">//roboy-error-detection.readthedocs.io/en/latest/1-familiarize-with-motors-and-joints</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">`Github<sp/>-<sp/>roboy-ros-control<sp/>calibration<sp/>&lt;https:</highlight><highlight class="comment">//github.com/Persilisk/roboy-ros-control/tree/calibration&gt;`_</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">`Github<sp/>-<sp/>roboy\_managing\_node<sp/>calibration<sp/>&lt;https:</highlight><highlight class="comment">//github.com/Persilisk/roboy_managing_node&gt;`_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">Dancing<sp/>code<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>the<sp/>PaBiLegs:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">http:</highlight><highlight class="comment">//roboy-error-detection.readthedocs.io/en/latest/1-familiarize-with-motors-and-joints</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="build/html/_sources/pabilegs/pabilegs.rst.txt"/>
+    <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/pabilegs/pabilegs.rst.txt"/>
   </compounddef>
 </doxygen>

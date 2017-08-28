@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_6ba79a783b9b3612a1f102809ee1e63d" kind="dir">
+    <compoundname>/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_static/js</compoundname>
+    <innerfile refid="modernizr_8min_8js">modernizr.min.js</innerfile>
+    <innerfile refid="theme_8js">theme.js</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_static/js/"/>
+  </compounddef>
+</doxygen>

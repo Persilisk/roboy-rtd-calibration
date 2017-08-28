@@ -372,6 +372,6 @@
 <codeline lineno="362"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Example<sp/>configuration<sp/>for<sp/>intersphinx:<sp/>refer<sp/>to<sp/>the<sp/>Python<sp/>standard<sp/>library.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="363"><highlight class="normal">intersphinx_mapping<sp/>=<sp/>{</highlight><highlight class="stringliteral">&apos;https://docs.python.org/&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="conf.py"/>
+    <location file="/home/johanna/Roboy/sw_documentation_template/documentation/conf.py"/>
   </compounddef>
 </doxygen>

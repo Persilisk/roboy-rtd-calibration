@@ -19,7 +19,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="1" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="1" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="calibration_8rst_8txt_1a3853e8f01b7cf059371f1ea8e8b0c287" prot="public" static="no" mutable="no">
         <type>which makes it impossible for Roboy to know where his</type>
@@ -32,7 +32,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="6" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="6" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="calibration_8rst_8txt_1a32be27936ae835c770f62dff2471a693" prot="public" static="no" mutable="no">
         <type>which makes it impossible for Roboy to know where his</type>
@@ -45,7 +45,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="6" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="6" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="calibration_8rst_8txt_1a1433949959197fa519972a92eda38d37" prot="public" static="no" mutable="no">
         <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by</type>
@@ -58,7 +58,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="6" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="6" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="calibration_8rst_8txt_1a4f597c2f53a33257b31d667c7bb192b4" prot="public" static="no" mutable="no">
         <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error</type>
@@ -71,7 +71,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="11" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="11" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="calibration_8rst_8txt_1a96662a70ffdcc33efa7f511620774a26" prot="public" static="no" mutable="no">
         <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the</type>
@@ -84,7 +84,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="12" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="12" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="calibration_8rst_8txt_1a3b16f3f11230dbdb9569dd5dc397428d" prot="public" static="no" mutable="no">
         <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision</type>
@@ -97,7 +97,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="14" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="14" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="calibration_8rst_8txt_1ab64ad694f672c5f5b3984f59a2b4a421" prot="public" static="no" mutable="no">
         <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor</type>
@@ -110,7 +110,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="17" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="17" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="calibration_8rst_8txt_1a53765f135ff7fb26643dc6f32aad768a" prot="public" static="no" mutable="no">
         <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same</type>
@@ -123,7 +123,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="34" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="34" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="calibration_8rst_8txt_1a0edd35899426361bbf6b9ec441934333" prot="public" static="no" mutable="no">
         <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same resolution shows the detection of small changes in the measured parameter Approaches Measuring Tension Changes~The tension in all motors changes while one is changing</type>
@@ -136,7 +136,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="43" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="43" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="calibration_8rst_8txt_1a1a3f42ddfab5b888f2ec8718e29ebc52" prot="public" static="no" mutable="no">
         <type>which makes it impossible for Roboy to know where his etc are without further information Roboy shall be able to move to the initial position by or at least faster and with less help than right now Requirements **Error it might hurt himself by doing so Therfore it is essential that errors are detected and reported to the as the robot might get damaged otherwise This detection can be realized through the evaluation of sensor data **Collision expected and actual joint angles **Motor the most important characteristics are precision and resolution Precision is defined by the variation of its output for the same resolution shows the detection of small changes in the measured parameter Approaches Measuring Tension Changes~The tension in all motors changes while one is changing which is connected to four the motor increases its tension until the sensor reports a certain position This gives the absolute position image::images Robot png Motion Capture~Stereo vision motion capture systems can provide joint angle data in real time The chair of Robotics at TUM developed this system in order to calibrate a torso robot with The elbow joint was calibrated via few steady state poses that had a great variety in the joint</type>
@@ -149,7 +149,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="56" column="1" bodyfile="build/html/_sources/calibration/calibration.rst.txt" bodystart="55" bodyend="-1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="56" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" bodystart="55" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -168,7 +168,7 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="build/html/_sources/calibration/calibration.rst.txt" line="43" column="1"/>
+        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt" line="43" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -258,6 +258,6 @@ Roboy 1.0 currently needs two people and a lot of time to get initialized and ca
 <codeline lineno="80"><highlight class="normal">P.<sp/>H.<sp/>Borgstrom,<sp/>B.<sp/>L.<sp/>Jordan,<sp/>B.<sp/>J.<sp/>Borgstrom,<sp/>M.<sp/>J.<sp/>Stealey,<sp/>G.<sp/>S.<sp/>Sukhatme,<sp/>M.<sp/>A.<sp/>Batalin<sp/>and<sp/>W.<sp/>J.<sp/>Kaiser.<sp/></highlight><highlight class="stringliteral">&quot;NIMS-PL:<sp/>A<sp/>Cable-Driven<sp/>Robot<sp/>With<sp/>Self-Calibration<sp/>Capabilities&quot;</highlight><highlight class="normal">,<sp/>2009,<sp/>IEEE<sp/>Transactions<sp/>on<sp/>Robotics,<sp/>Vol.<sp/>25,<sp/>No.<sp/>5,<sp/>October<sp/>2009</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="build/html/_sources/calibration/calibration.rst.txt"/>
+    <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/calibration/calibration.rst.txt"/>
   </compounddef>
 </doxygen>

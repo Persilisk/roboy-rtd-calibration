@@ -77,7 +77,7 @@ author = u'Raphael Dürscheid, based on Template by Dr. Peter'
 # The short X.Y version.
 version = u'1.0.'
 # The full version, including alpha/beta/rc tags.
-release = u'0.0.'
+release = u'1.0.'
 
 breathe_projects = { project: "doxyxml/" }
 breathe_default_project = project

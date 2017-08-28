@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_14ae4ebec25b6b5ae76add9e35268199" kind="dir">
+    <compoundname>/home/johanna/Roboy/sw_documentation_template/documentation</compoundname>
+    <innerdir refid="dir_ed7bc29a400174f665940d70699c7c15">/home/johanna/Roboy/sw_documentation_template/documentation/build</innerdir>
+    <innerfile refid="conf_8py">conf.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/johanna/Roboy/sw_documentation_template/documentation/"/>
+  </compounddef>
+</doxygen>

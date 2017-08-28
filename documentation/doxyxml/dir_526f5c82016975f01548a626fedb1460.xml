@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_526f5c82016975f01548a626fedb1460" kind="dir">
+    <compoundname>/home/johanna/Roboy/sw_documentation_template/documentation/build/html</compoundname>
+    <innerdir refid="dir_e32706bfa505b6bc4037eaebf9a4d178">/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_static</innerdir>
+    <innerfile refid="searchindex_8js">searchindex.js</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/"/>
+  </compounddef>
+</doxygen>
