@@ -36,7 +36,7 @@
         <argsstring></argsstring>
         <name>extensions</name>
         <initializer>= [
-    &apos;breathe&apos;,
+#    &apos;breathe&apos;,
     &apos;sphinx.ext.autodoc&apos;,
     &apos;sphinx.ext.doctest&apos;,
     &apos;sphinx.ext.intersphinx&apos;,
@@ -165,34 +165,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="conf.py" line="80" column="1" bodyfile="conf.py" bodystart="80" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="conf_8py_1acb47d2c0c2904fa7d36b63142533f383" prot="public" static="no" mutable="no">
-        <type>dictionary</type>
-        <definition>dictionary conf.breathe_projects</definition>
-        <argsstring></argsstring>
-        <name>breathe_projects</name>
-        <initializer>= { project: &quot;doxyxml/&quot; }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="conf.py" line="82" column="1" bodyfile="conf.py" bodystart="82" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="conf_8py_1a8d12755aa54c237c377547861225767a" prot="public" static="no" mutable="no">
-        <type></type>
-        <definition>conf.breathe_default_project</definition>
-        <argsstring></argsstring>
-        <name>breathe_default_project</name>
-        <initializer>= project</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="conf.py" line="83" column="1" bodyfile="conf.py" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1a4aa7a2bc17feeaa23e59b244158394b5" prot="public" static="no" mutable="no">
         <type>string</type>

@@ -12,8 +12,6 @@
     <member refid="conf_8py_1a637c239d256432248aa8d9f3ab0b8c52" kind="variable"><name>author</name></member>
     <member refid="conf_8py_1ade15c5b54093b64d7c428ec19ca5b1cb" kind="variable"><name>version</name></member>
     <member refid="conf_8py_1a325dc746d8bf05c54d26351c35a21d90" kind="variable"><name>release</name></member>
-    <member refid="conf_8py_1acb47d2c0c2904fa7d36b63142533f383" kind="variable"><name>breathe_projects</name></member>
-    <member refid="conf_8py_1a8d12755aa54c237c377547861225767a" kind="variable"><name>breathe_default_project</name></member>
     <member refid="conf_8py_1a4aa7a2bc17feeaa23e59b244158394b5" kind="variable"><name>language</name></member>
     <member refid="conf_8py_1a7ad48fb6f3e9b129c02346ea0d3527c1" kind="variable"><name>exclude_patterns</name></member>
     <member refid="conf_8py_1a641130e096b26cba8a5d63ed38684de7" kind="variable"><name>pygments_style</name></member>
