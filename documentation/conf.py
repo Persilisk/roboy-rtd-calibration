@@ -26,7 +26,7 @@ import subprocess, os
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if on_rtd:
   from subprocess import call
-  call('doxygen')
+  subprocess.call('./documentation/doxygen', shell=True)
 
 # -- General configuration ------------------------------------------------
 

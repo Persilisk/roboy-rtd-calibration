@@ -36,7 +36,7 @@
 <codeline lineno="26"><highlight class="normal">on_rtd<sp/>=<sp/>os.environ.get(</highlight><highlight class="stringliteral">&apos;READTHEDOCS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">)<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;True&apos;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>on_rtd:</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>subprocess<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>call</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/>call(</highlight><highlight class="stringliteral">&apos;doxygen&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>subprocess.call(</highlight><highlight class="stringliteral">&apos;./documentation/doxygen&apos;</highlight><highlight class="normal">,<sp/>shell=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">#<sp/>--<sp/>General<sp/>configuration<sp/>------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>

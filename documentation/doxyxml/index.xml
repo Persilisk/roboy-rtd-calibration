@@ -2,6 +2,7 @@
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
   <compound refid="namespaceconf" kind="namespace"><name>conf</name>
     <member refid="conf_8py_1ac9f32ab656bf05ad872fd46e03504cc8" kind="variable"><name>on_rtd</name></member>
+    <member refid="conf_8py_1a332f430461432dc465213f884a1e4967" kind="variable"><name>shell</name></member>
     <member refid="conf_8py_1ae475e080536acb271a0a0efe56c3ba42" kind="variable"><name>extensions</name></member>
     <member refid="conf_8py_1ae850ae634911b713e036b43894fdd525" kind="variable"><name>templates_path</name></member>
     <member refid="conf_8py_1a10af2a769eb3bd3322e874f677e435b1" kind="variable"><name>source_suffix</name></member>
