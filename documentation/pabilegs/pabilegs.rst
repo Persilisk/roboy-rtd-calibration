@@ -54,6 +54,12 @@ Github repositories:
 
 `Github - myoFPGA <https://github.com/Roboy/myoFPGA/tree/feature/calibration>`_
 
+Github repositories with updated code:
+
+`Github - roboy-ros-control calibration <https://github.com/Persilisk/roboy-ros-control/tree/calibration>`_
+
+`Github - roboy\_managing\_node calibration <https://github.com/Persilisk/roboy_managing_node>`_
+
 Dancing code for the PaBiLegs:
 
 http://roboy-error-detection.readthedocs.io/en/latest/1-familiarize-with-motors-and-joints
