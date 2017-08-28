@@ -10,6 +10,6 @@
 <codeline lineno="1"><highlight class="normal">breathe</highlight></codeline>
 <codeline lineno="2"><highlight class="normal">sphinx_rtd_theme</highlight></codeline>
     </programlisting>
-    <location file="/home/johanna/Roboy/sw_documentation_template/documentation/requirements.txt"/>
+    <location file="requirements.txt"/>
   </compounddef>
 </doxygen>

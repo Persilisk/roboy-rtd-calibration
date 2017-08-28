@@ -20,7 +20,7 @@ The PaBiLegs consists of 4 joints and 8 motors</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/pabilegs/pabilegs.rst.txt" line="1" column="1" bodyfile="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/pabilegs/pabilegs.rst.txt" bodystart="2" bodyend="-1"/>
+        <location file="build/html/_sources/pabilegs/pabilegs.rst.txt" line="1" column="1" bodyfile="build/html/_sources/pabilegs/pabilegs.rst.txt" bodystart="2" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -96,6 +96,6 @@ The PaBiLegs consists of 4 joints and 8 motors</initializer>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/johanna/Roboy/sw_documentation_template/documentation/build/html/_sources/pabilegs/pabilegs.rst.txt"/>
+    <location file="build/html/_sources/pabilegs/pabilegs.rst.txt"/>
   </compounddef>
 </doxygen>
