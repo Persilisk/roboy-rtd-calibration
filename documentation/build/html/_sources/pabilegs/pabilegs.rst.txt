@@ -56,9 +56,9 @@ Github repositories:
 
 Github repositories with updated code:
 
-`Github - roboy-ros-control calibration <https://github.com/Persilisk/roboy-ros-control/tree/calibration>`_
+`Github - roboy-ros-control calibration <https://github.com/Roboy/roboy-ros-control/tree/calibration>`_
 
-`Github - roboy\_managing\_node calibration <https://github.com/Persilisk/roboy_managing_node>`_
+`Github - roboy\_managing\_node calibration <https://github.com/Roboy/roboy_managing_node>`_
 
 Dancing code for the PaBiLegs:
 
